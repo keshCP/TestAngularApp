@@ -6,14 +6,10 @@ const routes: Routes = [
   
   {
     path:'home',
-    loadChildren:'app/components/home/home.module#HomeModule'
+    loadChildren:'src/app/components/home/home.module#HomeModule'
   }
-/*
-  {
-    path:'home',
-    loadChildren:'app/components/home/home.module#HomeModule'
-  }
-*/
+
+
 
 ];
 
@@ -22,6 +18,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {
-
 
 }
